@@ -1,0 +1,22 @@
+{
+  "files": {
+    "main.css": "/ZoesAerialSite/static/css/main.b2e345e3.chunk.css",
+    "main.js": "/ZoesAerialSite/static/js/main.040a0517.chunk.js",
+    "runtime-main.js": "/ZoesAerialSite/static/js/runtime-main.626c738f.js",
+    "static/js/2.9d2498b4.chunk.js": "/ZoesAerialSite/static/js/2.9d2498b4.chunk.js",
+    "static/js/3.7514fe7c.chunk.js": "/ZoesAerialSite/static/js/3.7514fe7c.chunk.js",
+    "index.html": "/ZoesAerialSite/index.html",
+    "static/js/2.9d2498b4.chunk.js.LICENSE.txt": "/ZoesAerialSite/static/js/2.9d2498b4.chunk.js.LICENSE.txt",
+    "static/media/HeadshotPhoto.8e397459.jpeg": "/ZoesAerialSite/static/media/HeadshotPhoto.8e397459.jpeg",
+    "static/media/App.css": "/ZoesAerialSite/static/media/portraitHeader.a309b6e6.jpeg",
+    "static/media/adventurePhoto.d4a40410.jpeg": "/ZoesAerialSite/static/media/adventurePhoto.d4a40410.jpeg",
+    "static/media/aerialistPhoto.aecacbb7.jpeg": "/ZoesAerialSite/static/media/aerialistPhoto.aecacbb7.jpeg",
+    "static/media/printPhoto.5b21c5fe.jpeg": "/ZoesAerialSite/static/media/printPhoto.5b21c5fe.jpeg"
+  },
+  "entrypoints": [
+    "static/js/runtime-main.626c738f.js",
+    "static/js/2.9d2498b4.chunk.js",
+    "static/css/main.b2e345e3.chunk.css",
+    "static/js/main.040a0517.chunk.js"
+  ]
+}

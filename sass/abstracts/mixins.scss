@@ -1,0 +1,59 @@
+@mixin responds($breakpoint) {
+    @if $breakpoint == phone {
+        @media only screen and (max-width: 37.5em) {
+            @content;
+        } //600px
+    }
+    @if $breakpoint == tab-port {
+        @media only screen and (max-width: 56.25em) {
+            @content;
+        } //900px
+    }
+    @if $breakpoint == tab-land {
+        @media only screen and (max-width: 75em) {
+            @content;
+        } //1200px
+    }
+    @if $breakpoint == big-desktop {
+        @media only screen and (min-width: 112.5em) {
+            @content;
+        } //1800
+    }
+}
+
+@mixin contactForm {
+    outline: none;
+    display: block;
+    width: 60vw;
+    max-width: 900px;
+    padding: 7px;
+    border: none;
+    border-bottom: 1px solid rgb(173, 169, 169);
+    background: transparent;
+    margin-bottom: 4rem;
+    font: 16px Arial, Helvetica, sans-serif;
+    height: 45px;
+}
+
+@mixin addressForm {
+    outline: none;
+    display: block;
+    width: 60vw;
+    max-width: 400px;
+    color: $color-white;
+    padding: 7px;
+    border: none;
+    border-bottom: 1px solid rgb(173, 169, 169);
+    background: transparent;
+    margin-bottom: 10px;
+    margin-top: 10px;
+    font: 16px Arial, Helvetica, sans-serif;
+    height: 35px;
+}
+
+@mixin icons {
+    margin: auto;
+    color: $color-white;
+    text-decoration: none !important;
+    font-size: 2rem;
+}
